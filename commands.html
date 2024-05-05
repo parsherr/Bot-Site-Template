@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Abone-Rol Sistemi Bot - a Discord Bot</title>
+    <link rel="stylesheet" href="assets/css/bulma.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script src="assets/js/jquery-3.6.0.js"></script>
+    <style>
+      body {
+        background-color: #231f20;
+      }
+      .title {
+        color: rgb(255, 255, 255);
+      }
+      .subtitle {
+        color: white;
+      }
+      h1, p {
+        color: white;
+      }
+      .command {
+        background-color: rgb(63, 63, 142);
+        padding-left: 2px;
+        padding-right: 3px;
+        border-radius: 5px;
+        font-size: 20px;
+        margin-right: 5px;
+      }
+      .padding-give-bottom {
+        margin-bottom: 8px;
+      }
+      .command:hover {
+        background-color:rgb(76, 76, 197) ;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Back To Top Start -->
+    <a id="backtotop" data-tippy-content="Back To Top.">
+      <i class="fa-solid fa-angle-up has-text-white fa-2xl mt-5"></i>
+    </a>
+    <!-- Back To Top End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar is-fixed-top"
+      role="navigation"
+      aria-label="main navigation"
+    >
+      <div class="navbar-brand mt-2 mb-2">
+        <a href="index.html">
+        <img
+        src="https://cdn.discordapp.com/attachments/1173319481599213639/1218093265815863426/Ekran_goruntusu_2024-03-15_095746.png?ex=6637d901&is=66368781&hm=f0d507afaa2679508c71ba84ba4e7aeaec1e4f6cf4a319d647a58ec02a38799a&"
+        width="60px"
+        style="margin-left: 10px; border-radius: 50%;"
+      />
+    </a>
+        <a class="navbar-item" href="index.html">
+          <strong>Abone-Rol Sistemi Bot</strong>
+
+          <!-- or if you want to use image -->
+
+        <a
+          role="button"
+          class="navbar-burger has-text-white"
+          data-target="navMenu"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a href="index.html" class="navbar-item is-tab">
+            Anasayfa
+          </a>
+
+          <a href="commands.html" class="navbar-item is-tab">
+            Komutlar
+          </a>
+
+          <a href="istatistikler.html" class="navbar-item is-tab">
+            İstatistikler
+          </a>
+
+        </div>
+
+        <div class="navbar-end">
+          <a href="https://discord.gg/EM4GrB6Hg2" class="navbar-item is-tab" target="_blank">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+
+          <div class="navbar-item">
+            <div class="buttons">
+              <a href="https://discord.gg/EM4GrB6Hg2" class="button is-blurple">
+                <strong
+                  ><i class="fa-solid fa-right-to-bracket mr-2"></i>
+                  Destek sunucusu</strong
+                >
+              </a>
+              <a href="https://discord.com/api/oauth2/authorize?client_id=1086392092294660176&permissions=8&scope=bot%20applications.commands" class="button is-blurple">
+                <strong
+                  ><i class="fa-solid fa-right-to-bracket mr-2"></i>
+                  Botu Davet Et</strong
+                >
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Features Section Start -->
+    <section id="features" class="section mt-6">
+      <div class="has-text-centered">
+        <h1 class="title lined">Komutlar</h1>
+        <div class="line line-center blurple"></div>
+      </div>
+
+      <!-- single feature start (Left) -->
+      <div>
+        <div>
+          <div>
+            <h4 class="title">Botumuzun <span class="blurple">Genel</span> Komutları</h4>
+            <p class="padding-give-bottom"><span class="command">/yardım </span>・ Botun komutları ve ne işe yaradıklarını gösterir.</p>
+            <p class="padding-give-bottom"><span class="command">/davet</span>・ Botu davet edersiniz ve destek sunucusuna katılabilirsiniz.</p>
+            <p class="padding-give-bottom"><span class="command">/leaderboard </span>・ Liderlik tablosunu gösterir.</p>
+            <p class="padding-give-bottom"><span class="command">/oyver</span>・ Botun top.gg uzantısını gösterir..</p>
+            <p class="padding-give-bottom"><span class="command">/destek</span>・ Botun destek sunucusunu gösterir.</p>
+            <p class="padding-give-bottom"><span class="command">/istatistik</span>・ Botun istatistiklerini gösterir.</p>
+            <h4 class="title">Botumuzun <span class="blurple">Yetkili</span> Komutları</h4>
+            <p class="padding-give-bottom"><span class="command">/bilgi </span>・ yetkilinin rol sayısını gösterir.</p>
+            <p class="padding-give-bottom"><span class="command">/abone rol-ayarla</span>・ abone rolü ayarlar.</p>
+            <p class="padding-give-bottom"><span class="command">/abone yetkili-rol-ayarla</span>・ yetkili rolü ayarlar.</p>
+            <p class="padding-give-bottom"><span class="command">/abone log-ayarla</span>・ sistem mesaj kanalı ayarlar.</p>
+            <p class="padding-give-bottom"><span class="command">/abone ver</span>・ kullanıcıya abone rolü verir.</p>
+            <p class="padding-give-bottom"><span class="command">/abone al</span>・ kullancının abone rolünü alır.</p>
+            <p class="padding-give-bottom"><span class="command">/abone veri-sıfırla</span>・ sunucunuzdaki tüm verileri siler.</p>
+            <p class="padding-give-bottom"><span class="command">/abone ayarlar</span>・ sunucu ayar verilerini gösterir.</p>
+
+          </div>
+        </div>
+      </div>
+      <!-- single feature end (Left) -->
+
+  
+    </section>
+    <!-- Features Section End -->
+
+    <!-- Invite Section Start -->
+    <section class="section mt-6">
+      <div class="columns">
+        <div class="column has-text-left">
+          <p class="title has-text-weight-bold">
+            <span class="blurple">Abone-Rol Sistem</span> botumuzu bu gün dene!
+          </p>
+          <a href="https://discord.com/api/oauth2/authorize?client_id=1086392092294660176&permissions=8&scope=bot%20applications.commands" class="button is-blurple is-medium"
+            ><strong><i class="fa-solid fa-book"></i> Botu ekle</strong></a
+          >
+        </div>
+
+        <div class="column"></div>
+      </div>
+    </section>
+    <!-- Invite Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer bg-base">
+      <div class="content has-text-centered has-text-white">
+        <div class="mb-2">
+          <a href="https://discord.gg/EM4GrB6Hg2" class="has-text-white" target="_blank">
+            <i class="fa-brands fa-discord"></i>
+          </a>
+          &nbsp; &nbsp;
+        </div>
+
+        <p>
+          <span class="has-text-weight-bold">Abone-Rol Sistemi</span>
+          <br />
+          &copy; <span id="cp-year"></span> Copyright parsher. Tüm hakları gizlidir.
+        </p>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

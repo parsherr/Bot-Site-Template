@@ -67,7 +67,14 @@ html {
 .navbar-menu {
   animation: navAnimOpen 0.2s ease-in-out;
 }
-
+.active {
+  text-decoration: underline;
+  text-decoration-thickness: 2px ;
+  text-decoration-color: #497cda;
+}
+.active:hover {
+  text-decoration: none;
+}
 @keyframes navAnimOpen {
   0% {
     display: none;

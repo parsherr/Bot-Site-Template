@@ -1,6 +1,7 @@
 # 📌 Discord-Bot-Site-Template
 
 ![Proje Banner](https://cdn.discordapp.com/attachments/1248983337306030143/1248983348865531944/image.png?ex=6665a5e3&is=66645463&hm=c1a16b365acb972b5f8d1260fa64a566e399b0222ec58cfb38d5defa020f7b46&)
+[View Demo Page](https://abonebot.site)
 
 ## 📖 Hakkında
 

@@ -1,6 +1,6 @@
 # 📌 Discord-Bot-Site-Template
 
-![Proje Banner](https://via.placeholder.com/1200x300.png?text=Proje+Banner)
+![Proje Banner](https://cdn.discordapp.com/attachments/1248983337306030143/1248983348865531944/image.png?ex=6665a5e3&is=66645463&hm=c1a16b365acb972b5f8d1260fa64a566e399b0222ec58cfb38d5defa020f7b46&)
 
 ## 📖 Hakkında
 
@@ -15,8 +15,8 @@ Discord-Bot-Site-Template, modern ve kullanıcı dostu bir uygulama oluşturmak 
 
 ## 🖼️ Ekran Görüntüleri
 
-![Ekran Görüntüsü 1](https://via.placeholder.com/800x400.png?text=Ekran+G%C3%B6r%C3%BCnt%C3%BCs%C3%BC+1)
-![Ekran Görüntüsü 2](https://via.placeholder.com/800x400.png?text=Ekran+G%C3%B6r%C3%BCnt%C3%BCs%C3%BC+2)
+![Ekran Görüntüsü 1](https://cdn.discordapp.com/attachments/1248983337306030143/1248983395942273085/image.png?ex=6665a5ee&is=6664546e&hm=a155c35a6b3805701916dccfeda33134c40e62e8643b4f1b59a662e047563131&)
+![Ekran Görüntüsü 2](https://cdn.discordapp.com/attachments/1248983337306030143/1248983485859762408/image.png?ex=6665a604&is=66645484&hm=34907dec1ecfe6ebff74cd09fc69941d1188f2305bb428d93962c9e36e79fda7&)
 
 ## 📦 Kurulum
 

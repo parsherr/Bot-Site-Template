@@ -72,4 +72,4 @@ Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için [LISANSE](/
 Herhangi bir sorunuz veya geri bildiriminiz varsa, lütfen bana ulaşın:
 
 - GitHub: [parsherr](https://github.com/parsherr)
-- E-posta: [email@example.com](parsher.info@gmail.com)
+- E-posta: [parsher.info@gmail.com](parsher.info@gmail.com)

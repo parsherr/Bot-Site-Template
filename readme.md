@@ -65,7 +65,7 @@ Katkıda bulunmak isterseniz lütfen şu adımları izleyin:
 6. 📬 Pull request açın
 
 ## 📄 Lisans
-Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için [LISANSE](/blob/main/LICENSEmd) dosyasına bakın.
+Bu proje MIT lisansı ile lisanslanmıştır. Daha fazla bilgi için [LISANSE](/LICENSEmd) dosyasına bakın.
 
 ## 💬 İletişim
 

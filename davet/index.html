@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davet Sayfası Yönlendirme</title>
+    <script>
+        // Sayfa yüklendiğinde çalışacak fonksiyon
+        window.onload = function() {
+            // Mevcut URL'yi al
+            var currentUrl = window.location.pathname;
+            
+            // Eğer URL /davet ise, yeni URL'ye yönlendir
+            if (currentUrl === '/davet') {
+                window.location.href = 'https://discord.com/api/oauth2/authorize?client_id=1086392092294660176&permissions=8&scope=bot%20applications.commands';
+            }
+        };
+    </script>
+</head>
+<body>
+    <!-- Sayfa içeriği -->
+    <h1>Hoş Geldiniz</h1>
+    <p>Bu sayfa, /davet URL'sine gidildiğinde otomatik olarak yönlendirilir.</p>
+</body>
+</html>

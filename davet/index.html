@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Davet Sayfası Yönlendirme</title>
     <script>
         // Sayfa yüklendiğinde çalışacak fonksiyon
@@ -16,10 +17,30 @@
             }
         };
     </script>
+
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            background-color: #231f20;
+            font-family: 'Roboto', sans-serif;
+        }
+        .centered-div {
+            background-color: #231f20; /* Pastel Pembe Arka Plan */
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    <!-- Sayfa içeriği -->
-    <h1>Hoş Geldiniz</h1>
-    <p>Bu sayfa, /davet URL'sine gidildiğinde otomatik olarak yönlendirilir.</p>
+    <div class="centered-div">
+        <h1>Hoş Geldiniz</h1>
+    </div>
+
 </body>
 </html>
